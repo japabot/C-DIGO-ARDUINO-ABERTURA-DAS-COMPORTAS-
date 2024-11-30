@@ -1,0 +1,6 @@
+1 - Inclusão da biblioteca Servo.h
+2 - Declaração da variável Servo servo_9
+3 - Função servo motor – portas localizadas no arduino _9.attach(9, 500, 2500)
+4 - Variável int pos, armazenamento do ângulo
+5 - Função servo_9.write(pos), move o servo para o ângulo
+6 - Loops for no void loop(), realiza os movimentos contínuo de 0 a 180 graus
